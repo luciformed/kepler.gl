@@ -51,6 +51,8 @@ export type MapStyle = {
   inputStyle: InputStyle;
   threeDBuildingColor: RGBColor;
   custom3DBuildingColor: boolean;
+  topMapStyle:any;
+  bottomMapStyle:any;
 };
 
 export const INITIAL_MAP_STYLE: MapStyle;
