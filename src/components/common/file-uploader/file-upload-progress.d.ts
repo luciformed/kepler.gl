@@ -4,7 +4,7 @@ import {FileLoadingProgress} from 'reducers/vis-state-updaters';
 
 export type FileUploadProgressProps = {
   fileLoadingProgress: FileLoadingProgress;
-  theme: object;
+  theme?: object; // TODO: is this really required?
 };
 
 const FileUploadProgress: React.FunctionComponent<FileUploadProgressProps>;
