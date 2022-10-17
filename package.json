@@ -18,7 +18,7 @@
     "url": "https://github.com/keplergl/kepler.gl.git"
   },
   "scripts": {
-    "prepare": "echo 'RUNNING PREPARE SCRIPT' && npm run build",
+    "prepare": "npm run build",
     "install:example": "cd examples/demo-app && yarn",
     "install:web": "yarn install:example && cd website && yarn",
     "install-and-start": "node ./scripts/install-and-start",
