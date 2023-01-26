@@ -41,13 +41,13 @@ export class Provider {
   hasSharingUrl(): boolean;
   getShareUrl(fullUrl?: boolean): string;
   getMapUrl(fullUrl?: boolean): string;
-  getAccessToken(): boolean;
-  getUserName(): boolean;
+  getAccessToken(): string;
+  getUserName(): string;
   login(Fn?: any): Promise<any>;
   logout(Fn?: any): Promise<any>;
   uploadMap(p: {mapData: MapData; options: ExportFileOptions}): Promise<any>;
   listMaps(): Promise<MapListItem>;
-  downloadMap(param: any): Promose<{map: MapData; format: string}>;
+  downloadMap(param: any): Promise<{map: MapData; format: string}>;
 }
 
 export const FILE_CONFLICT_MSG: string;
