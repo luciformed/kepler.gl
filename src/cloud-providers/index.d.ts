@@ -36,7 +36,7 @@ export class Provider {
   displayName: string;
   icon: ComponentType<IconProps>;
   thumbnail: Thumbnail;
-  getManagementUrl?: () => string;
+  getManagementUrl():? string;
   hasPrivateStorage(): boolean;
   hasSharingUrl(): boolean;
   getShareUrl(fullUrl?: boolean): string;
