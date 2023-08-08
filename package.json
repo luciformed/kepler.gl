@@ -78,7 +78,7 @@
     "umd"
   ],
   "dependencies": {
-    "@deck.gl/aggregation-layers": "8.4.13",
+    "@deck.gl/aggregation-layers": "8.2.0",
     "@deck.gl/core": "8.4.13",
     "@deck.gl/extensions": "8.4.13",
     "@deck.gl/geo-layers": "8.4.13",
